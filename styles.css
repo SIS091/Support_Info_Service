@@ -1,0 +1,224 @@
+/* Style général */
+
+body {
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+background-color: lightyellow;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Style de la bannière */
+
+.banner {
+background-color: lightskyblue;
+padding: 10px;
+}
+    
+.banner-content {
+text-align: center;
+}
+
+/* Titre de la bannière */
+
+.banner-title {
+font-size: 80%;
+margin:auto;
+ }
+
+ /* Navigation */
+
+.navbar {
+margin-top: 10px;
+}
+
+.navbar ul {
+list-style-type: none;
+padding: 0;
+display: flex;
+justify-content: space-around;
+}
+
+.navbar ul li {
+display: inline;
+}
+
+.navbar ul li a {
+color: darkblue;
+text-decoration: none;
+padding: 10px 20px;
+background-color: lightskyblue;
+border-radius:  5px;
+transition : background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+ background-color: lightskyblue;
+}
+
+.navbar_sec a {
+color: darkblue;
+text-decoration: none;
+background-color: lightyellow;
+}
+
+.Logo {
+display: flex;
+justify-content: center;
+margin-left: 375px;
+margin-right: 375px;
+animation: agrandir 5s infinite alternate; /* Animation de 5 secondes */
+}
+
+@keyframes agrandir {
+0% {
+ transform: scale(1); /* Taille normale */
+}
+100% {
+transform: scale(1.125); /* Image agrandie */
+}
+}
+
+.Title{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+    
+.Prestations{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.A_propos{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.Contacter{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.Partners{
+text-align: center;
+justify-items: center;
+justify-content: space-between;
+margin-top: 100px;
+margin-bottom: 100px;  
+}
+
+    /* Style des trois cadres */
+
+.content-boxes {
+display: flex;
+text-align: center;
+justify-content: space-between;
+gap: 20px;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 70px;
+margin-bottom: 70px;
+}
+
+.box {
+background-color: lightgrey;
+padding: 20px;
+border: 3px solid blue;
+border-radius: 8px;
+width: 50%;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+margin-top: 0;
+}
+
+.box p {
+margin-bottom: 0;
+ }
+
+.Partenaires{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.content-cadre{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.cadre {
+background-color: lightyellow;
+padding: 20px;
+border: 3px solid blue;
+border-radius: 8px;
+width: 60%;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px; 
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.textarea{
+resize: none
+}
+
+.misenform{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.formulaire{
+margin: 20px;
+background-color: lightyellow;
+padding: 20px;
+border: 3px solid blue;
+border-radius: 8px;
+width: 30%;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+text-align: left;
+}
+
+.bouton{
+text-align: center;
+}
+    
+    /* Style de la bannière de fin */
+
+.bannerend {
+background-color: lightyellow;
+padding: 10px;
+color: black;
+}
+
+.bannerend-content {
+display:flex;
+}
+    
+    /* Image dans la bannière de fin*/
+
+.bannerend-image {
+float: left;
+margin-right: 10px;
+}
+    
+    /* Titre de la bannière de fin */
+
+.bannerend-title {
+font-size: 80%;
+margin: 0;
+}
+    
+.mentions{
+text-align: justify;
+margin: 20px;
+}
